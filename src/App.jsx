@@ -41,7 +41,7 @@ function App() {
         <IdeaToImpact />
         <BuildTogether />
         {/* <WhatWillYouBuild /> */}
-        <AISection />
+        {/* <AISection /> */}
         {/* <Schedule /> */}
         {/* <Presentation /> */}
         {/* <Prizes /> */}
