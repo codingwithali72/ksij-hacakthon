@@ -458,7 +458,8 @@
   
   .title-multiline {
     font-size: clamp(0.65rem, 3.5vw, 0.85rem);
-    word-break: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
   
   .card-subtext {

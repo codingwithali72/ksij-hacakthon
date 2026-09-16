@@ -279,6 +279,13 @@
     padding: 0 1rem;
     margin-bottom: 2rem;
   }
+
+  .hero-btn-main, .hero-btn-sub {
+    padding: 1rem 1rem;
+    width: 100%;
+    text-align: center;
+    white-space: normal;
+  }
   
   .hero-info-card {
     gap: 1rem;
