@@ -103,9 +103,9 @@ export const IdeaToImpact = () => {
             
             <div className={`process-node ${progress >= 50 ? 'active' : ''}`}>
               <div className="node-circle">03</div>
-              <div className="node-text">
+              <div className="node-content">
                 <h4 className="node-title">CHOOSE A PROBLEM</h4>
-                <p className="node-desc">Work on an organizer-provided problem, your own idea, or a community-submitted idea.</p>
+                <p className="node-desc">Problem statements will be released 1 week before the hackathon.</p>
               </div>
             </div>
             

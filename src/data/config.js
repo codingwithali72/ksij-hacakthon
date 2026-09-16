@@ -99,8 +99,8 @@ export const HACKATHON_DATA = {
       answer: "Yes! You can register as an individual and we will group you with other participants to form a team before the hackathon begins."
     },
     {
-      question: "Can I bring my own idea?",
-      answer: "Yes. You can work on an organizer-provided problem statement, your own idea, or a community-submitted idea. (Problem statements will be released one week prior)."
+      question: "What problems will we be solving?",
+      answer: "Problem statements will be released 1 week prior to the hackathon. You can also bring your own community-focused ideas to build upon."
     },
     {
       question: "Can I use AI?",
