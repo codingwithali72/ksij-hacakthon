@@ -25,7 +25,7 @@ const AboutSection = () => {
             </p>
           </div>
           
-          <div className="about-process-card card-glass">
+          {/* <div className="about-process-card card-glass">
             <div className="vertical-timeline">
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
@@ -50,7 +50,7 @@ const AboutSection = () => {
                 <div className="timeline-content text-yellow">IMPACT</div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* <div className="info-cards">
