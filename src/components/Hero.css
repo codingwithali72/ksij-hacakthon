@@ -153,53 +153,69 @@
 
 .countdown-section {
   width: 100%;
-  max-width: 550px;
-  margin-bottom: 4rem;
+  max-width: 750px;
+  margin: 0 auto 4rem;
+  padding: 2.5rem 3rem;
+  border-radius: 12px;
+}
+
+.icon-mr {
+  margin-right: 8px;
+  vertical-align: -2px;
 }
 
 .countdown-label {
   font-family: var(--font-heading);
-  color: #64748b;
-  font-size: 0.75rem;
+  color: var(--accent-cyan);
+  font-size: 0.9rem;
   font-weight: 700;
-  letter-spacing: 3px;
-  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .countdown-timer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
 }
 
-.time-box {
-  background-color: #080c16;
-  border: 1px solid rgba(0, 240, 255, 0.15);
-  border-radius: 8px;
-  padding: 1rem 0;
-  width: 100px;
+.time-col {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-width: 90px;
+}
+
+.text-cyan-gradient {
+  background: linear-gradient(to bottom, #ffffff, var(--accent-cyan));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+}
+
+.text-yellow-gradient {
+  background: linear-gradient(to bottom, #ffffff, var(--accent-yellow));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(255, 183, 3, 0.3);
 }
 
 .time-value {
   font-family: var(--font-heading);
-  font-size: 2.2rem;
+  font-size: 3.5rem;
   font-weight: 800;
   line-height: 1;
-  margin-bottom: 0.3rem;
-  color: var(--accent-cyan);
-}
-
-.time-value.text-yellow {
-  color: var(--accent-yellow);
+  margin-bottom: 0.5rem;
 }
 
 .time-label {
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   color: #94a3b8;
   letter-spacing: 2px;
   font-weight: 700;
@@ -207,16 +223,43 @@
 }
 
 .time-sep {
-  color: rgba(0, 240, 255, 0.3);
-  font-size: 1.5rem;
+  font-size: 3rem;
+  font-weight: 800;
   font-family: var(--font-heading);
-  font-weight: 700;
-  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.2);
+  line-height: 1;
+  margin-top: -0.2rem;
 }
 
 
 
 @media (max-width: 768px) {
+  .countdown-section {
+    padding: 1.5rem 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .countdown-timer {
+    gap: 0.5rem;
+  }
+  
+  .time-value {
+    font-size: 2rem;
+  }
+  
+  .time-sep {
+    font-size: 1.8rem;
+  }
+  
+  .time-col {
+    min-width: 60px;
+  }
+  
+  .countdown-label {
+    font-size: 0.7rem;
+    margin-bottom: 1.5rem;
+  }
+
   .hero-top-labels {
     flex-direction: column;
     gap: 0.8rem;

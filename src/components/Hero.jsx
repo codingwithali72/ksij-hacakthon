@@ -95,26 +95,28 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="countdown-section">
-            <p className="countdown-label">REGISTRATION & EVENT COUNTDOWN</p>
+          <div className="countdown-section card-glass">
+            <p className="countdown-label">
+              <Clock size={14} className="icon-mr" /> REGISTRATION & EVENT COUNTDOWN
+            </p>
             <div className="countdown-timer">
-              <div className="time-box">
-                <div className="time-value text-cyan">{timeLeft.days}</div>
+              <div className="time-col">
+                <div className="time-value text-cyan-gradient">{timeLeft.days}</div>
                 <div className="time-label">DAYS</div>
               </div>
               <div className="time-sep">:</div>
-              <div className="time-box">
-                <div className="time-value text-cyan">{timeLeft.hours}</div>
+              <div className="time-col">
+                <div className="time-value text-cyan-gradient">{timeLeft.hours}</div>
                 <div className="time-label">HOURS</div>
               </div>
               <div className="time-sep">:</div>
-              <div className="time-box">
-                <div className="time-value text-cyan">{timeLeft.minutes}</div>
+              <div className="time-col">
+                <div className="time-value text-cyan-gradient">{timeLeft.minutes}</div>
                 <div className="time-label">MINUTES</div>
               </div>
               <div className="time-sep">:</div>
-              <div className="time-box">
-                <div className="time-value text-yellow">{timeLeft.seconds}</div>
+              <div className="time-col">
+                <div className="time-value text-yellow-gradient">{timeLeft.seconds}</div>
                 <div className="time-label">SECONDS</div>
               </div>
             </div>
