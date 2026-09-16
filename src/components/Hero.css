@@ -44,6 +44,8 @@
   color: #94a3b8;
   text-transform: uppercase;
   font-weight: 600;
+  max-width: 100%;
+  word-break: break-word;
 }
 
 .hero-title {
@@ -53,6 +55,8 @@
   font-weight: 900;
   letter-spacing: 2px;
   color: #ffffff;
+  max-width: 100%;
+  word-break: break-word;
 }
 
 .hero-title .text-cyan {
@@ -252,7 +256,8 @@
   }
   
   .time-col {
-    min-width: 60px;
+    min-width: 0;
+    flex: 1;
   }
   
   .countdown-label {
