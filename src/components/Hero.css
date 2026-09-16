@@ -244,7 +244,7 @@
 @media (max-width: 768px) {
   .countdown-section {
     padding: 1.5rem 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
   
   .countdown-timer {
