@@ -1,0 +1,262 @@
+.hero {
+  padding-top: 130px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-top-labels {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-registration-pill {
+  margin-bottom: 0;
+  border-radius: 20px; /* pill shape */
+  border: 1px solid var(--accent-cyan);
+  background-color: rgba(0, 240, 255, 0.05);
+  color: var(--accent-cyan);
+  padding: 0.3rem 1.2rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  box-shadow: none;
+}
+
+.hero-presents {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  letter-spacing: 3px;
+  color: #94a3b8;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  line-height: 1.1;
+  margin-bottom: 2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.hero-title .text-cyan {
+  display: block;
+  text-shadow: 0 0 35px rgba(0, 240, 255, 0.4);
+}
+
+.hero-tagline {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  font-family: var(--font-body);
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.hero-desc {
+  color: #94a3b8;
+  font-size: 1.1rem;
+  max-width: 720px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.hero-btn-main {
+  padding: 1.2rem 2.5rem;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  background-color: var(--accent-yellow);
+  color: #000;
+  border-radius: 8px;
+  box-shadow: none; /* removed shadow to match flat vibrant look */
+  transition: all 0.3s ease;
+}
+
+.hero-btn-main:hover {
+  background-color: var(--accent-yellow-hover);
+  transform: translateY(-2px);
+}
+
+.hero-btn-sub {
+  padding: 1.2rem 2.5rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-color: #050a14;
+  color: var(--accent-cyan);
+  border: 1px solid rgba(0, 240, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+
+.hero-btn-sub:hover {
+  border-color: var(--accent-cyan);
+  background-color: rgba(0, 240, 255, 0.05);
+  transform: translateY(-2px);
+}
+
+
+
+.hero-info-card {
+  width: 100%;
+  max-width: 950px;
+  margin-bottom: 3.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  gap: 2rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #cbd5e1;
+  font-size: 0.8rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.info-item .icon {
+  color: var(--accent-cyan);
+}
+
+.countdown-section {
+  width: 100%;
+  max-width: 550px;
+  margin-bottom: 4rem;
+}
+
+.countdown-label {
+  font-family: var(--font-heading);
+  color: #64748b;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-box {
+  background-color: #080c16;
+  border: 1px solid rgba(0, 240, 255, 0.15);
+  border-radius: 8px;
+  padding: 1rem 0;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-value {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 0.3rem;
+  color: var(--accent-cyan);
+}
+
+.time-value.text-yellow {
+  color: var(--accent-yellow);
+}
+
+.time-label {
+  font-size: 0.65rem;
+  color: #94a3b8;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: var(--font-heading);
+}
+
+.time-sep {
+  color: rgba(0, 240, 255, 0.3);
+  font-size: 1.5rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .hero-top-labels {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .hero-actions {
+    flex-direction: column;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-info-card {
+    gap: 1rem;
+    padding: 1.5rem 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .countdown-section {
+    margin-bottom: 2rem;
+  }
+
+  
+  .info-item {
+    font-size: 0.75rem;
+  }
+  
+  .countdown-timer {
+    gap: 0.5rem;
+  }
+  
+  .time-box {
+    width: 70px;
+    padding: 0.8rem 0;
+  }
+  
+  .time-value {
+    font-size: 1.5rem;
+  }
+  
+  .time-sep {
+    font-size: 1rem;
+  }
+}
