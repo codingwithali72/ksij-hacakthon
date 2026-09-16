@@ -457,8 +457,8 @@
   }
   
   .title-multiline {
-    font-size: clamp(0.7rem, 4vw, 0.9rem);
-    white-space: nowrap;
+    font-size: clamp(0.65rem, 3.5vw, 0.85rem);
+    word-break: normal;
   }
   
   .card-subtext {
