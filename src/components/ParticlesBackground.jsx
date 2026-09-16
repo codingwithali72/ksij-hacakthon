@@ -30,14 +30,14 @@ const ParticlesBackground = () => {
           fpsLimit: 60,
           particles: {
             color: {
-              value: "#8b5cf6",
+              value: ["#8a2be2", "#4169e1", "#7b68ee", "#6a5acd"],
             },
             links: {
-              color: "#6366f1",
+              color: "#7b68ee",
               distance: 120,
               enable: true,
-              opacity: 0.6,
-              width: 1,
+              opacity: 0.8,
+              width: 1.5,
             },
             move: {
               enable: true,
@@ -51,7 +51,7 @@ const ParticlesBackground = () => {
               value: 100,
             },
             opacity: {
-              value: 0.8,
+              value: 1,
             },
             shape: {
               type: "circle",
