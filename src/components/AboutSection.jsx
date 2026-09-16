@@ -53,7 +53,7 @@ const AboutSection = () => {
           </div>
         </div>
 
-        <div className="info-cards">
+        {/* <div className="info-cards">
           <div className="info-card card-glass">
             <h4 className="text-cyan">ONE DAY</h4>
             <p>IN-PERSON</p>
@@ -70,7 +70,7 @@ const AboutSection = () => {
             <h4 className="text-cyan">COMMUNITY</h4>
             <p>FOCUS</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
