@@ -58,6 +58,15 @@
   text-decoration: none;
 }
 
+.social-icon-link {
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.social-icon-link:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.6));
+}
+
 .back-to-top:hover {
   color: var(--accent-cyan);
 }
