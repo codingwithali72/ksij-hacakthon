@@ -30,10 +30,10 @@ const ParticlesBackground = () => {
           fpsLimit: 60,
           particles: {
             color: {
-              value: ["#8a2be2", "#4169e1", "#7b68ee", "#6a5acd"],
+              value: "#7b68ee", /* Single hex string to ensure it parses correctly */
             },
             links: {
-              color: "#7b68ee",
+              color: "#4169e1",
               distance: 120,
               enable: true,
               opacity: 0.8,
