@@ -80,6 +80,10 @@
   margin: 0 auto 3rem;
   line-height: 1.6;
   font-weight: 500;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding: 0 1rem;
 }
 
 .hero-actions {
@@ -272,7 +276,7 @@
   
   .hero-actions {
     flex-direction: column;
-    padding: 0 2rem;
+    padding: 0 1rem;
     margin-bottom: 2rem;
   }
   

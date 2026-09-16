@@ -41,7 +41,7 @@ html, body {
   isolation: isolate; /* Creates a stacking context so z-index: -1 children stay above body background */
   overflow-x: hidden;
   width: 100%;
-  max-width: 100vw;
+  position: relative;
 }
 
 /* Typography styles */
@@ -249,7 +249,7 @@ section {
 /* Media Queries */
 @media (max-width: 768px) {
   .container {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
   }
   
   section {
