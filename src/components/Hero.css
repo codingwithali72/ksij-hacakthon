@@ -57,7 +57,7 @@
 
 .hero-title .text-cyan {
   display: block;
-  text-shadow: 0 0 35px rgba(0, 240, 255, 0.4);
+  text-shadow: 0 0 20px rgba(0, 240, 255, 0.25);
 }
 
 .hero-tagline {
