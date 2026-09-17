@@ -45,9 +45,10 @@ export const IdeaToImpact = () => {
       const rect = containerRef.current.getBoundingClientRect();
       const windowHeight = window.innerHeight;
       
-      // Start filling when container enters middle of screen
-      const start = windowHeight * 0.7; 
-      const end = windowHeight * 0.3;
+      // Start filling when container enters near bottom of screen
+      // Finish filling when container is near top of screen
+      const start = windowHeight * 0.85; 
+      const end = windowHeight * 0.15;
       
       let newProgress = 0;
       if (rect.top > start) {
