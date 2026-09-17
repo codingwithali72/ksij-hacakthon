@@ -452,6 +452,20 @@
     gap: 0.5rem;
   }
   
+  .glance-grid {
+    gap: 0.5rem;
+  }
+  
+  .glance-grid .card-glass {
+    padding: 1rem 0.5rem !important;
+  }
+  
+  .glance-grid .detail-card-title {
+    font-size: 0.75rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+  
   .info-card {
     padding: 1.5rem 0.5rem;
   }
