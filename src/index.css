@@ -269,3 +269,14 @@ section {
 .header-container > * {
   min-width: 0;
 }
+
+/* CRITICAL ANDROID FONT ZOOM FIX: Force text to wrap inside constrained layouts */
+* {
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+h1, h2, h3, h4, h5, h6, .section-title, .hero-title, .size-display {
+  word-break: break-word !important;
+  hyphens: auto;
+}
