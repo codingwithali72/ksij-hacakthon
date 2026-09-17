@@ -89,7 +89,8 @@ h1, h2, h3, h4, h5, h6 {
 .bg-glow {
   position: fixed;
   top: -20%;
-  left: -10%;
+  left: 0;
+  transform: translateX(-10%);
   width: 50vw;
   height: 50vw;
   background: radial-gradient(circle, rgba(99, 102, 241, 0.12) 0%, rgba(0,0,0,0) 70%);
@@ -100,7 +101,8 @@ h1, h2, h3, h4, h5, h6 {
 .bg-glow-right {
   position: fixed;
   bottom: -20%;
-  right: -10%;
+  right: 0;
+  transform: translateX(10%);
   width: 60vw;
   height: 60vw;
   background: radial-gradient(circle, rgba(139, 92, 246, 0.08) 0%, rgba(0,0,0,0) 70%);
@@ -252,7 +254,18 @@ section {
     padding: 0 1rem;
   }
   
-  section {
+  .footer {
     padding: 40px 0;
   }
+}
+
+/* CRITICAL MOBILE FIX: Force grid and flex children to shrink below content size */
+.card-glass, .info-card, .detail-card-title, 
+.build-grid > *, .build-details-grid > *, 
+.glance-grid > *, .info-cards-grid > *,
+.hero-content > *, .hero-actions > *,
+.countdown-timer > *, .time-col,
+.presentation-grid > *, .criteria-grid > *,
+.header-container > * {
+  min-width: 0;
 }
