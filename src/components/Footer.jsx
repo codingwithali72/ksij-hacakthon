@@ -32,18 +32,7 @@ const Footer = () => {
           <div className="footer-right">
             <ul className="footer-nav">
               <li><a href="#about">About</a></li>
-              <li><a href="#schedule">Schedule</a></li>
-            </ul>
-            <ul className="footer-nav">
-              <li><a href="#how-it-works">How It Works</a></li>
-              <li><a href="#judging">Judging</a></li>
-            </ul>
-            <ul className="footer-nav">
               <li><a href="#teams">Teams</a></li>
-              <li><a href="#prizes">Prizes</a></li>
-            </ul>
-            <ul className="footer-nav">
-              <li><a href="#challenges">Challenges</a></li>
               <li><a href="#faq">FAQ</a></li>
             </ul>
           </div>
