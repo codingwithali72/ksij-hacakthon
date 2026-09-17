@@ -138,10 +138,6 @@ export const HACKATHON_DATA = {
     //   question: "What are the prizes?",
     //   answer: "There is a total prize pool of over ₹1,25,000+. 1st place wins ₹50,000, 2nd place wins ₹30,000, and 3rd place wins ₹20,000, plus additional goodies."
     // },
-    {
-      question: "Is there a refundable deposit?",
-      answer: "Please refer to the registration form for detailed information regarding any deposits."
-    }
   ],
 
   coordinators: [
