@@ -96,7 +96,7 @@ const Hero = () => {
 
           <div className="countdown-section card-glass">
             <p className="countdown-label">
-              <Clock size={14} className="icon-mr" /> REGISTRATION & EVENT COUNTDOWN
+              <Clock size={14} className="icon-mr" /> EVENT COUNTDOWN
             </p>
             <div className="countdown-timer">
               <div className="time-col">
