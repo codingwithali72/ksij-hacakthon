@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="footer-left">
             <div className="logo">
               <span className="logo-text">KSIJ</span>
-              <span className="logo-subtext">TECH & AI CLUB</span>
+              <span className="logo-subtext">MUMBAI (YOUTH COMMITTEE)</span>
             </div>
             <p className="footer-tagline">Technology. Learning. Innovation. Community.</p>
             <div className="social-links" style={{ marginTop: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p className="copyright">© 2026 KSIJ Tech & AI Club</p>
+          <p className="copyright">© 2026 KSIJ Mumbai (Youth Committee)</p>
           <a href="#" className="back-to-top">Back to top ↑</a>
         </div>
       </div>

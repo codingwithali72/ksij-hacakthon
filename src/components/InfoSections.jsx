@@ -26,8 +26,8 @@ export const WhoCanParticipate = () => (
           <p className="card-subtext">Participants can register<br/>from different locations</p>
         </div>
         <div className="info-card card-glass reveal reveal-stagger-4">
-          <h4 className="text-cyan title-multiline">SHIA ITHNA<br/>ASHARI</h4>
-          <p className="card-subtext">Open to Shia community</p>
+          <h4 className="text-cyan title-multiline">OPEN<br/>TO ALL</h4>
+          <p className="card-subtext">Everyone is welcome</p>
         </div>
       </div>
     </div>
@@ -191,7 +191,7 @@ export const WhatWillYouBuild = () => (
         <Lightbulb size={14} className="pill-icon" /> THE CHALLENGE
       </div>
       <h2 className="section-title">WHAT WILL<br/><span className="text-cyan">YOU BUILD?</span></h2>
-      <p className="info-desc mb-4">Build a practical solution for a real problem faced by the Shia community.</p>
+      <p className="info-desc mb-4">Build a practical solution for a real challenge that creates meaningful impact.</p>
       
       <div className="card-glass info-bar" style={{ maxWidth: '600px', margin: '0 auto', justifyContent: 'center' }}>
         <Info size={18} className="text-cyan info-bar-icon" />

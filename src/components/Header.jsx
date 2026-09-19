@@ -26,7 +26,7 @@ const Header = () => {
       <div className="header-container">
         <a href="#" className="logo">
           <span className="logo-text">KSIJ</span>
-          <span className="logo-subtext">TECH & AI CLUB</span>
+          <span className="logo-subtext">MUMBAI (YOUTH COMMITTEE)</span>
         </a>
 
         {/* Desktop Navigation */}

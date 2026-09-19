@@ -43,12 +43,11 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-top-labels">
             <div className="section-label hero-registration-pill">REGISTRATION</div>
-            <h3 className="hero-presents">KSIJ TECH & AI CLUB PRESENTS</h3>
+            <h3 className="hero-presents">ORGANIZED BY KSIJ MUMBAI (YOUTH COMMITTEE)</h3>
           </div>
           
           <h1 className="hero-title">
-            SHIA COMMUNITY<br/>
-            <span className="text-cyan">HACKATHON</span>
+            HACKATHON <span className="text-cyan">2026</span>
           </h1>
           
           <h2 className="hero-tagline">

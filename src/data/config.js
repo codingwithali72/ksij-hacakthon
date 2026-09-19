@@ -1,7 +1,7 @@
 export const HACKATHON_DATA = {
-  name: "KSIJ COMMUNITY HACKATHON",
+  name: "HACKATHON 2026",
   tagline: "BUILD FOR THE COMMUNITY.",
-  description: "A one-day technology and AI hackathon where participants come together to build practical solutions for real problems faced by the Shia community.",
+  description: "An open hackathon organized by KSIJ Mumbai (Youth Committee), where participants can turn real challenges and fresh ideas into practical solutions that create meaningful impact.",
   date: "04 OCTOBER 2026",
   location: "TBA (Mumbai)",
   format: "ONE-DAY / IN-PERSON",
@@ -80,7 +80,7 @@ export const HACKATHON_DATA = {
   faq: [
     {
       question: "Who can participate?",
-      answer: "Anyone in 10th Standard or above can participate. No specific technical background is required. Open to the Shia community."
+      answer: "Anyone in 10th Standard or above can participate. No specific technical background is required."
     },
     {
       question: "Can I participate from outside Mumbai?",
