@@ -92,6 +92,10 @@ const Hero = () => {
               <Users className="icon" size={16} />
               {HACKATHON_DATA.teamSize}
             </div>
+            <div className="info-item" style={{ color: 'var(--accent-cyan)' }}>
+              <Users className="icon" size={16} />
+              OPEN TO ALL (SEPARATE SEATING)
+            </div>
           </div>
 
           <div className="countdown-section card-glass">

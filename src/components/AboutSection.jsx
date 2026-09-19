@@ -18,7 +18,7 @@ const AboutSection = () => {
               <span className="text-cyan">COMMUNITY HACKATHON?</span>
             </h2>
             <p className="about-desc">
-              {HACKATHON_DATA.description}
+              A unique opportunity to connect with peers, brainstorm innovative ideas, and build tech solutions that solve genuine community problems.
             </p>
             <p className="about-subtext">
               {HACKATHON_DATA.about.subtext}
