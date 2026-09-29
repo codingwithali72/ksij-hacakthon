@@ -8,7 +8,8 @@ import {
   BuildTogether, 
   WhatWillYouBuild, 
   AISection, 
-  EventAtGlance 
+  EventAtGlance, 
+  ProblemStatements 
 } from './components/InfoSections';
 import Schedule from './components/Schedule';
 import { 
@@ -47,6 +48,7 @@ function App() {
         {/* <Prizes /> */}
         {/* <Preparation /> */}
         <EventAtGlance />
+        <ProblemStatements />
         <FAQ />
         <CallToAction />
         <Coordinators />

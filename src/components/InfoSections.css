@@ -479,3 +479,252 @@
     font-size: 0.65rem;
   }
 }
+
+/* Problem Statements */
+
+.problem-header {
+  margin-bottom: 3rem;
+}
+
+.problem-header .section-label {
+  margin-bottom: 2rem;
+}
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.problem-card {
+  padding: 1.75rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  transition: border-color 0.3s ease,
+              transform 0.3s ease;
+}
+
+.problem-card:hover {
+  border-color: rgba(0, 240, 255, 0.4);
+  transform: translateY(-4px);
+}
+
+.problem-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.problem-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  color: var(--cyan, #00f0ff);
+  background: rgba(0, 240, 255, 0.08);
+  border: 1px solid rgba(0, 240, 255, 0.2);
+}
+
+.problem-number {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--yellow, #ffe066);
+  opacity: 0.8;
+}
+
+.problem-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+  margin: 0 0 0.75rem;
+}
+
+.problem-description {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0 1.25rem;
+  flex-grow: 1;
+}
+
+.problem-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.85rem 0 0;
+  margin-top: auto;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: transparent;
+  color: var(--cyan, #00f0ff);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.problem-toggle svg {
+  transition: transform 0.3s ease;
+}
+
+.problem-toggle svg.rotated {
+  transform: rotate(180deg);
+}
+
+.problem-toggle:hover {
+  color: #fff;
+}
+
+.problem-details {
+  padding-top: 1rem;
+  animation: problemFadeIn 0.25s ease;
+}
+
+.problem-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.problem-details li {
+  position: relative;
+  padding-left: 1.25rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.problem-details li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65rem;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--cyan, #00f0ff);
+}
+
+/* Participant Guidelines */
+
+.problem-guidelines {
+  margin-top: 2.5rem;
+  padding: 2rem;
+  text-align: left;
+  border-color: rgba(0, 240, 255, 0.2);
+}
+
+.guidelines-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.guidelines-heading h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.problem-guidelines > p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1.5rem;
+}
+
+.guidelines-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.guidelines-grid h4 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin: 0 0 0.5rem;
+}
+
+.guidelines-grid p {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+}
+
+.guidelines-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.guidelines-footer svg {
+  flex-shrink: 0;
+}
+
+@keyframes problemFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .problem-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .problem-card {
+    padding: 1.5rem;
+  }
+
+  .problem-guidelines {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .guidelines-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .problem-title {
+    font-size: 1rem;
+  }
+
+  .problem-description {
+    font-size: 0.88rem;
+  }
+
+  .guidelines-footer {
+    align-items: flex-start;
+  }
+}

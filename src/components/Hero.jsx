@@ -85,6 +85,10 @@ const Hero = () => {
               {HACKATHON_DATA.format.split('/')[1].trim()}
             </div>
             <div className="info-item">
+              <Clock className="icon" size={16} />
+              {HACKATHON_DATA.format.split('/')[2].trim()}
+            </div>
+            <div className="info-item">
               <Cpu className="icon" size={16} />
               {HACKATHON_DATA.technology}
             </div>

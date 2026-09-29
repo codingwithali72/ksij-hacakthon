@@ -3,8 +3,8 @@ export const HACKATHON_DATA = {
   tagline: "BUILD FOR THE COMMUNITY.",
   description: "An open hackathon organized by KSIJ Mumbai (Youth Committee), where participants can turn real challenges and fresh ideas into practical solutions that create meaningful impact.",
   date: "04 OCTOBER 2026",
-  location: "TBA (Mumbai)",
-  format: "ONE-DAY / IN-PERSON",
+  location: "Khoja Shia Isna Ashari Jama Masjid (Dongri)",
+  format: "ONE-DAY / IN-PERSON / OFFLINE ONLY",
   teamSize: "3–4 MEMBERS",
   eligibility: "10TH STANDARD+",
   focus: "COMMUNITY",
@@ -84,7 +84,7 @@ export const HACKATHON_DATA = {
     },
     {
       question: "Can I participate from outside Mumbai?",
-      answer: "Yes, participants from outside Mumbai can register. However, please note this is an in-person event and the venue will be in Mumbai."
+      answer: "Yes, participants from outside Mumbai can register. However, please note this is an in-person event and the venue is in Mumbai."
     },
     {
       question: "Do I need a team?",
@@ -124,16 +124,16 @@ export const HACKATHON_DATA = {
     },
     {
       question: "Is this an overnight hackathon?",
-      answer: "No, this is a one-day, in-person event starting in the morning and concluding in the evening."
+      answer: "No, this is a one-day, in-person event starting in the morning and concluding at night."
     },
     {
       question: "Will food be provided?",
       answer: "Yes, food and refreshments will be provided throughout the event."
     },
-    {
-      question: "Where is the hackathon?",
-      answer: "The venue is TBA (Mumbai), and will be decided based on registrations."
-    },
+    // {
+    //   question: "Where is the hackathon?",
+    //   answer: "The venue is TBA (Mumbai), and will be decided based on registrations."
+    // },
     // {
     //   question: "What are the prizes?",
     //   answer: "There is a total prize pool of over ₹1,25,000+. 1st place wins ₹50,000, 2nd place wins ₹30,000, and 3rd place wins ₹20,000, plus additional goodies."

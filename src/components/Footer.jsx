@@ -33,6 +33,7 @@ const Footer = () => {
             <ul className="footer-nav">
               <li><a href="#about">About</a></li>
               <li><a href="#teams">Teams</a></li>
+              <li><a href="#problems">Problem Statements</a></li>
               <li><a href="#faq">FAQ</a></li>
             </ul>
           </div>
